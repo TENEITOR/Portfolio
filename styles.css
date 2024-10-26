@@ -1,0 +1,107 @@
+body {
+    background: #e0e5ec;
+  }
+
+.imageWeb {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 50px auto;
+    box-shadow: 20px 20px 60px 10px green;
+}
+
+.imageWeb:hover{
+    width: 600px;
+    height: 600px;
+    -webkit-transform:scale(1.1.5);
+    transform:scale(1.1.5);
+  }
+
+
+/* Definición de los botones inferiores */
+button {
+    margin: 20px;
+  }
+
+.custom-boton {
+    margin-top: 50px;
+    gap: 20px;
+    width: 130px;
+    height: 40px;
+    color: greenyellow;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+.boton-1 {
+    background: linear-gradient(0deg, rgba(6,14,131,1) 0%, rgba(12,25,180,1) 100%);
+    border: none;
+  }
+
+.boton-1:hover {
+    background: rgb(0,3,255);
+    background: linear-gradient(0deg, rgba(0,3,255,1) 0%, rgba(2,126,251,1) 100%);
+    color: greenyellow;
+    box-shadow: 0 0 5px 5px;
+  }
+
+h1 {
+    text-align: center;
+}
+
+.nombres {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 50;
+    font-size: 25px;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: blueviolet;
+}
+
+.textoMain {
+    font-family: Arial;
+    text-align: center;
+    font-weight: 25;
+    font-size: 15px;
+}
+
+.iconos {
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.subIconos {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background: gray;
+    border-radius: 50%;
+  }
+
+.subIconos:hover {
+    background: greenyellow;
+    color: greenyellow;
+    box-shadow: 0 0 5px 5px;
+  }
+.imagenIconos {
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 25px;
+    border-radius: 50%;
+}
